@@ -11,7 +11,7 @@ def get_args():
     parser.add_argument("-t", "--target", dest="target",
                         help="Enter the targte IP")
     parser.add_argument("-s", "--spoof", dest="spoof",
-                        help="Enter the IP that you want to spoofing")
+                        help="Enter the IP that you want to spoof")
     # parser.add_argument("-i", "--interface", dest="interface",
     #                     help="Enter you interface")
     args = parser.parse_args()
